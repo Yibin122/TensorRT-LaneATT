@@ -18,7 +18,7 @@ python laneatt_to_onnx.py
 ```
 python onnx_to_tensorrt.py
 ```
-![sample](/samples/02610_pred.jpg)
+![sample](/samples/02610_pred.png)
 
 ## TODO
 - [ ] Measure speed on Xavier
