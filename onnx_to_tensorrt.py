@@ -137,6 +137,6 @@ def engine_inference(onnx_file_path, image_file_path):
 
 
 if __name__ == '__main__':
-    image_file = './02610.jpg'
+    image_file = './samples/02610.jpg'
     onnx_file = './LaneATT_test.onnx'
     engine_inference(onnx_file, image_file)
