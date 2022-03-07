@@ -21,5 +21,5 @@ python onnx_to_tensorrt.py
 ![sample](/samples/02610_pred.png)
 
 ## TODO
+- [x] C++ inference
 - [ ] Measure speed on Xavier
-- [ ] C++ inference
