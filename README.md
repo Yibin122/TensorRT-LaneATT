@@ -20,6 +20,15 @@ python onnx_to_tensorrt.py
 ```
 ![sample](/samples/02610_pred.png)
 
+## 3.C++
+```
+cd laneatt
+mkdir build && cd build
+cmake ..
+# modify image and engine path in laneatt_test.cc
+make && ./laneatt_test
+```
+
 ## TODO
 - [x] C++ inference
 - [ ] Measure speed on Xavier
