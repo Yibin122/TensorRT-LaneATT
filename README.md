@@ -20,7 +20,7 @@ python onnx_to_tensorrt.py
 ```
 ![sample](/samples/02610_pred.png)
 
-## 3.C++
+## 3.C++ Inference
 ```
 cd laneatt
 mkdir build && cd build
