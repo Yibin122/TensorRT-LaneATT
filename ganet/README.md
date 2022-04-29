@@ -2,7 +2,7 @@
 This repo deploys [GANet](https://github.com/Wolfwjs/GANet) using TensorRT.
 
 ## Steps
-1. Install TensorRT
+1. Install TensorRT 8.0
    ```Shell
    # https://developer.nvidia.cn/nvidia-tensorrt-8x-download
    tar -xvzf TensorRT-8.0.3.4.Linux.x86_64-gnu.cuda-10.2.cudnn8.2.tar.gz
@@ -16,7 +16,7 @@ This repo deploys [GANet](https://github.com/Wolfwjs/GANet) using TensorRT.
    make install
    ```
 2. PyTorch to ONNX
-   ```Shell
+   ```Bash
    git clone https://github.com/Wolfwjs/GANet.git
    cd GANet
    python setup.py develop
